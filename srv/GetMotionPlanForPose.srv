@@ -4,4 +4,4 @@ geometry_msgs/PoseStamped  pose
 
 ---
 
-nav_msgs/Tr
+trajectory_msgs/JointTrajectory trajectory
