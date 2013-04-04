@@ -1,0 +1,7 @@
+# Florian motion plan for pose retrieval service
+
+geometry_msgs/PoseStamped  pose
+
+---
+
+nav_msgs/Tr
