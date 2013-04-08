@@ -1,6 +1,11 @@
 # Florian motion plan for pose retrieval service
 
+# The desired endeffector pose
 geometry_msgs/PoseStamped  pose
+
+# The joint group name of the appendage to be used
+# "l_arm_group" and "r_arm_group" are supported currently
+std_msgs/String group_name
 
 ---
 
