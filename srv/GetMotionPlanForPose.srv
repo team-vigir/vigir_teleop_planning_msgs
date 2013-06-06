@@ -1,12 +1,7 @@
 # Florian motion plan for pose retrieval service
 
-# The desired endeffector pose
-geometry_msgs/PoseStamped  pose
-
-# The joint group name of the appendage to be used
-# "l_arm_group" and "r_arm_group" are supported currently
-std_msgs/String group_name
-
+# The plan request
+flor_planning_msgs/PlanRequest plan_request
 ---
 uint8       OK                = 0
 uint8       OCTOMAP_WARNING   = 1
