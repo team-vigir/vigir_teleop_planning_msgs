@@ -25,6 +25,11 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs trajectory_msgs roscpp ros
    FILES
    GetMotionPlanForPose.srv
  )
+ 
+  add_message_files(
+    FILES
+    PlanRequest.msg
+   )
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(
