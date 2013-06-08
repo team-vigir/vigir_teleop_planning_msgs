@@ -11,3 +11,6 @@ uint8       PLANNING_FAILED   = 8
 
 trajectory_msgs/JointTrajectory trajectory
 uint8                           status
+
+#Can be different from requested group
+std_msgs/String                 used_planning_group
