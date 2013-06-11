@@ -30,6 +30,7 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs trajectory_msgs roscpp ros
     FILES
     PlanRequest.msg
     TargetConfigIkRequest.msg
+    JointPositionConstraints.msg
    )
 
 ## Generate added messages and services with any dependencies listed here
