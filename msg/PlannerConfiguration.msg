@@ -10,3 +10,9 @@ std_msgs/Float32 robot_collision_padding
 
 # The time factor to apply to the generated trajectories (e.g. 0.5 makes trajectory take twice as long to execute)
 std_msgs/Float32 trajectory_time_factor
+
+# The maximum height for octomaps to be used
+std_msgs/Float32 octomap_max_height
+
+# Size of the goal cube that gets cleared
+std_msgs/Float32 goal_cube_clearance
