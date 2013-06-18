@@ -24,6 +24,7 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs trajectory_msgs roscpp ros
  add_service_files(
    FILES
    GetMotionPlanForPose.srv
+   GetMotionPlanForJoints.srv
  )
  
   add_message_files(
