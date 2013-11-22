@@ -1,4 +1,6 @@
-# The goal pose. This can be given in any tf frame
+# The goal joint configuration. This has to contain the
+# correct number of DOF corresponding to the selected
+# planning group.
 float64[] position
 
 # Planning group to use, currently can be one of

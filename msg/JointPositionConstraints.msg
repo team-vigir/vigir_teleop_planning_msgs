@@ -1,8 +1,5 @@
 # Joint limits for IK that shouldn't be exceeded
-# from pelvis to head, so
-# back_bkz
-# back_bky
-# back_bkx
+# Only torso joints at this time
 
 std_msgs/Float32 back_bkz_min
 std_msgs/Float32 back_bkz_max
