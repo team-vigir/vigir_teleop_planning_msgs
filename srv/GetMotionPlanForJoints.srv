@@ -1,4 +1,4 @@
-# Florian motion plan for pose retrieval service
+# Retrieve motion plan for joint configuration
 
 # The plan request
 flor_planning_msgs/PlanToJointTargetRequest plan_request
@@ -10,6 +10,7 @@ uint8       PLANNER_EXCEPTION = 4
 uint8       PLANNING_FAILED   = 8
 
 trajectory_msgs/JointTrajectory trajectory
+
 uint8                           status
 
 #Can be different from requested group

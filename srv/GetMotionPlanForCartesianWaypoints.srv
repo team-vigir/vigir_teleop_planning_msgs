@@ -1,3 +1,5 @@
+# Retrieve motion plan for cartesian waypoints
+
 CartesianMotionRequest plan_request
 ---
 
@@ -6,3 +8,5 @@ trajectory_msgs/JointTrajectory trajectory
 
 # The fraction of the requested movement that could be performed (in range 0..1)
 float32 successful_plan_fraction
+
+uint8                           status
