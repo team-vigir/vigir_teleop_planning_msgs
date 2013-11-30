@@ -8,4 +8,5 @@ float64[] position
 # l_arm_with_torso_group
 # r_arm_group
 # r_arm_with_torso_group
+# neck_group
 string planning_group
