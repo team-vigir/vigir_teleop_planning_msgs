@@ -23,6 +23,7 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs trajectory_msgs roscpp ros
 ## Generate services in the 'srv' folder
  add_service_files(
    FILES
+   GetCurrentPlanningGroupState.srv
    GetMotionPlanForCartesianWaypoints.srv
    GetMotionPlanForCircularMotion.srv
    GetMotionPlanForJoints.srv
