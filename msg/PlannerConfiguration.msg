@@ -1,8 +1,12 @@
 # These are constraints for the torso joints
 JointPositionConstraints joint_position_constraints
 
-# True if collision avoidance should be disabled
+# True if collision avoidance with environment should be disabled
 std_msgs/Bool disable_collision_avoidance
+
+bool disable_left_hand_collision_avoidance
+
+bool disable_right_hand_collision_avoidance
 
 # The amount of padding (growing) to be added to robot
 # links for collision checking
