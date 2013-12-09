@@ -8,7 +8,7 @@ float32 rotation_angle
 bool use_environment_obstacle_avoidance
 
 # Keep endeffector orientation if true (do not rotate around rotation_center_pose)
-#bool keep_endeffector_orientation
+bool keep_endeffector_orientation
 
 # The planning group to use
 string planning_group
