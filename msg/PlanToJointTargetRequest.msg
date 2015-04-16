@@ -10,3 +10,6 @@ float64[] position
 # r_arm_with_torso_group
 # neck_group
 string planning_group
+
+# ID of the planner to be used (one of the MoveIt planners or "drake")
+string planner_id
