@@ -55,7 +55,7 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs trajectory_msgs roscpp ros
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
   INCLUDE_DIRS ${catkin_INCLUDE_DIRS}
-#  LIBRARIES flor_grasp_msgs
+#  LIBRARIES vigir_grasp_msgs
   CATKIN_DEPENDS geometry_msgs trajectory_msgs roscpp rospy std_msgs message_runtime
 #  DEPENDS system_lib
 )
@@ -70,18 +70,18 @@ include_directories(include
 )
 
 ## Declare a cpp library
-# add_library(flor_grasp_msgs
-#   src/${PROJECT_NAME}/flor_grasp_msgs.cpp
+# add_library(vigir_grasp_msgs
+#   src/${PROJECT_NAME}/vigir_grasp_msgs.cpp
 # )
 
 ## Declare a cpp executable
-# add_executable(flor_grasp_msgs_node src/flor_grasp_msgs_node.cpp)
+# add_executable(vigir_grasp_msgs_node src/vigir_grasp_msgs_node.cpp)
 
 ## Add dependencies to the executable
-# add_dependencies(flor_grasp_msgs_node ${PROJECT_NAME})
+# add_dependencies(vigir_grasp_msgs_node ${PROJECT_NAME})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(flor_grasp_msgs_node
+# target_link_libraries(vigir_grasp_msgs_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -97,7 +97,7 @@ include_directories(include
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS flor_grasp_msgs flor_grasp_msgs_node
+# install(TARGETS vigir_grasp_msgs vigir_grasp_msgs_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -122,7 +122,7 @@ include_directories(include
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_flor_grasp_msgs.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_vigir_grasp_msgs.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
