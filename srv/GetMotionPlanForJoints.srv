@@ -1,7 +1,7 @@
 # Retrieve motion plan for joint configuration
 
 # The plan request
-flor_planning_msgs/PlanToJointTargetRequest plan_request
+vigir_teleop_planning_msgs/PlanToJointTargetRequest plan_request
 ---
 uint8       OK                = 0
 uint8       OCTOMAP_WARNING   = 1
