@@ -9,3 +9,6 @@ bool use_environment_obstacle_avoidance
 
 # The planning group to use
 string planning_group
+
+# The planner to use (if empty, default planner is used)
+string planner_id

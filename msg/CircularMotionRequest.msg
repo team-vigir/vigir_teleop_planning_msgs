@@ -12,3 +12,6 @@ bool keep_endeffector_orientation
 
 # The planning group to use
 string planning_group
+
+# The planner to use (if empty, default planner is used)
+string planner_id
