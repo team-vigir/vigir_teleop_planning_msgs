@@ -7,6 +7,9 @@ geometry_msgs/Pose[] waypoints
 # Avoids environment collisions if true
 bool use_environment_obstacle_avoidance
 
+# Use free motion or follow cartesian points in straight line
+bool free_motion
+
 # The planning group to use
 string planning_group
 
